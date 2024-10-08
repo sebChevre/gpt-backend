@@ -1,0 +1,14 @@
+logs/
+.idea/
+.vscode/
+.venv*/
+venv*/
+__pycache__/
+dist/
+.coverage*
+htmlcov/
+.tox/
+docs/_build/
+.env
+docker/es/DOCKER.md
+local/
