@@ -6,6 +6,8 @@ from service.prompt_processor import ask
 
 import logging
 
+# TODO pour load env via script
+load_dotenv()
 # Logging
 file_handler = logging.FileHandler(filename=os.getenv('LOG_FILE'))
 handler = logging.StreamHandler()
